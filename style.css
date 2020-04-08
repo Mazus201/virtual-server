@@ -43,3 +43,55 @@ header {
     background: url(.//Images/LastHeader.png);
     position: fixed;
 }
+
+.line {
+    border-bottom: 1px solid gray;
+}
+.mainHeader {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.menu {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    white-space: pre;
+}
+.menu a {
+    margin-left: 2%;
+}
+.menu a:hover {
+    color: yellow;
+}
+#for-menu {
+    font-size: 9px;
+    font-weight: lighter;
+    letter-spacing: 2pt;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+main {
+    width: 100%;
+}
+.firstBlock {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    padding-top: 5%;
+    justify-content: space-between;
+}
+.blocks {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    justify-content: space-between;
+    width: 410px;
+    padding-bottom: 3%;
+}
+.leftFirstSide {
+    padding-top: 6%;
+}
