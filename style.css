@@ -95,3 +95,46 @@ main {
 .leftFirstSide {
     padding-top: 6%;
 }
+.secondBlocks {
+    text-align: right;
+}
+.buttons {
+    width: 540px;
+}
+.first-btn-group {
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 3pt;
+}
+.first-group {
+    display: flex;
+    flex-direction: row;
+}
+.first-btn-group p {
+    text-align: right;
+    width: 80px;
+    white-space: pre-line;
+}
+.first-btn-group h1 {
+    padding-left: 10%;
+}
+.second-btn-group {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.pic {
+    float: right;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+#btn-main {
+    background: transparent;
+    color: gray;
+    width: 170px;
+    height: 30px;
+    border-radius: 3pt;
+    border: 1px solid gray;
+}
