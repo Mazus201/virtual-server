@@ -138,3 +138,144 @@ main {
     border-radius: 3pt;
     border: 1px solid gray;
 }
+#block-text a {
+    color: black;
+    font-size: 13px;
+}
+.help-list {
+    padding-left: 18%;
+}
+.help-list li {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#line-style {
+    border-top: 1px solid gray;
+}
+.line-style-last {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+
+.bottom-text {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+.bottom-text p {
+    color: black;
+    font-size: 13px;
+}
+.comment {
+    width: 350px;
+}
+.comment p {
+    font-family: 'Satisfy', cursive;
+    font-size: 15px;
+    padding-bottom: 3%;
+}
+.comment p2 {
+    font-size: 13px;
+    padding-left: 10%;
+}
+.about-text {
+    width: 350px;
+}
+.bottom-text h3 {
+    color: black;
+    padding-bottom: 5%;
+}
+
+
+.thirdBlock {
+    width: 100%;
+    background: #FDFDFD;
+    box-shadow: 0 5px 11px -2px gray inset;
+}
+.twitter {
+   width: 70%;
+   margin: 0 auto;
+   display: flex;
+   padding-top: 1%;
+   padding-bottom: 1%;
+}
+.twitter p {
+    color: black;
+    font-size: 13px;
+    padding-left: 2%;
+}
+.twitter p1 {
+    font-size: 13px;
+    color: gray;
+    padding-left: 2%;
+}
+
+
+.last-section {
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+.fourthBlock{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#fourth-block-text {
+    color: white;
+    font-size: 13px;
+}
+#last-block-list li{
+    list-style: none;
+    padding-top: 10%;
+    font-size: 13px;
+}
+#last-block-list a {
+    color: yellow;
+}
+.last-about {
+    width: 210px;
+    font-size: 13px;
+}
+.last-about p1 {
+    color: gray;
+}
+.last-about p {
+    padding-bottom: 6%;
+}
+
+
+footer {
+    background: black;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.footer-blocks {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info p1,p2 {
+    font-size: 10px;
+    color: gray;
+}
+.footer-link a {
+    color: yellow;
+    font-size: 10px;
+}
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    width: 700px;
+}
+.footer-first-block {
+    display: inline-flex;
+}
